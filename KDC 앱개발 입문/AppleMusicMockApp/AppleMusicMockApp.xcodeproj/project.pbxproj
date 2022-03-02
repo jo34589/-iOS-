@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E399B2CC27BB608C00EA0054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B2CB27BB608C00EA0054 /* AppDelegate.swift */; };
+		E399B2CE27BB608C00EA0054 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B2CD27BB608C00EA0054 /* SceneDelegate.swift */; };
+		E399B2D527BB608D00EA0054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E399B2D427BB608D00EA0054 /* Assets.xcassets */; };
+		E399B2D827BB608D00EA0054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E399B2D627BB608D00EA0054 /* LaunchScreen.storyboard */; };
+		E399B30627BB615700EA0054 /* Extension+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B2E027BB615500EA0054 /* Extension+AVPlayerItem.swift */; };
+		E399B30727BB615700EA0054 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B2E127BB615500EA0054 /* Track.swift */; };
+		E399B30827BB615700EA0054 /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B2E227BB615500EA0054 /* TrackManager.swift */; };
+		E399B30927BB615700EA0054 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B2E427BB615500EA0054 /* DefaultStyle.swift */; };
+		E399B30A27BB615700EA0054 /* memories (listen on spotify from 3am ep).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2E627BB615700EA0054 /* memories (listen on spotify from 3am ep).mp3 */; };
+		E399B30B27BB615700EA0054 /* im trying to find myself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2E727BB615700EA0054 /* im trying to find myself.mp3 */; };
+		E399B30C27BB615700EA0054 /* when the leaves start falling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2E827BB615700EA0054 /* when the leaves start falling.mp3 */; };
+		E399B30D27BB615700EA0054 /* distant moon (spotify apple etc).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2E927BB615700EA0054 /* distant moon (spotify apple etc).mp3 */; };
+		E399B30E27BB615700EA0054 /* aruarian dance [lounge version].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2EA27BB615700EA0054 /* aruarian dance [lounge version].mp3 */; };
+		E399B30F27BB615700EA0054 /* Bike Rides On The Block.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2EB27BB615700EA0054 /* Bike Rides On The Block.mp3 */; };
+		E399B31027BB615700EA0054 /* Letting Go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2EC27BB615700EA0054 /* Letting Go.mp3 */; };
+		E399B31127BB615700EA0054 /* valentin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2ED27BB615700EA0054 /* valentin.mp3 */; };
+		E399B31227BB615700EA0054 /* elijah who - hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2EE27BB615700EA0054 /* elijah who - hello.mp3 */; };
+		E399B31327BB615700EA0054 /* Moonlight!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2EF27BB615700EA0054 /* Moonlight!.mp3 */; };
+		E399B31427BB615700EA0054 /* Getsomerest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2F027BB615700EA0054 /* Getsomerest.mp3 */; };
+		E399B31527BB615700EA0054 /* night calls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2F127BB615700EA0054 /* night calls.mp3 */; };
+		E399B31627BB615700EA0054 /* Ocean ride __ 海の乗り.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2F227BB615700EA0054 /* Ocean ride __ 海の乗り.mp3 */; };
+		E399B31727BB615700EA0054 /* Missing U In The Raining Day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2F327BB615700EA0054 /* Missing U In The Raining Day.mp3 */; };
+		E399B31827BB615700EA0054 /* Glow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2F427BB615700EA0054 /* Glow.mp3 */; };
+		E399B31927BB615700EA0054 /* Chamomile Tea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2F527BB615700EA0054 /* Chamomile Tea.mp3 */; };
+		E399B31A27BB615700EA0054 /* [ asleep ].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2F627BB615700EA0054 /* [ asleep ].mp3 */; };
+		E399B31B27BB615700EA0054 /* Sampled in your own sweet way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2F727BB615700EA0054 /* Sampled in your own sweet way.mp3 */; };
+		E399B31C27BB615700EA0054 /* always you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2F827BB615700EA0054 /* always you.mp3 */; };
+		E399B31D27BB615700EA0054 /* i fell in love with you one night in september..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2F927BB615700EA0054 /* i fell in love with you one night in september..mp3 */; };
+		E399B31E27BB615700EA0054 /* tranquility.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2FA27BB615700EA0054 /* tranquility.mp3 */; };
+		E399B31F27BB615700EA0054 /* Sleepless.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E399B2FB27BB615700EA0054 /* Sleepless.mp3 */; };
+		E399B32027BB615700EA0054 /* TrackCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B2FD27BB615700EA0054 /* TrackCollectionHeaderView.swift */; };
+		E399B32127BB615700EA0054 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B2FE27BB615700EA0054 /* HomeViewController.swift */; };
+		E399B32227BB615700EA0054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E399B2FF27BB615700EA0054 /* Main.storyboard */; };
+		E399B32327BB615700EA0054 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B30127BB615700EA0054 /* TrackCollectionViewCell.swift */; };
+		E399B32527BB615700EA0054 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B30427BB615700EA0054 /* PlayerViewController.swift */; };
+		E399B32627BB615700EA0054 /* SimplePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399B30527BB615700EA0054 /* SimplePlayer.swift */; };
+		E399B32A27BB698000EA0054 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E399B32927BB698000EA0054 /* Player.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E399B2C827BB608C00EA0054 /* AppleMusicMockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicMockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E399B2CB27BB608C00EA0054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E399B2CD27BB608C00EA0054 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E399B2D427BB608D00EA0054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E399B2D727BB608D00EA0054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E399B2D927BB608D00EA0054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E399B2E027BB615500EA0054 /* Extension+AVPlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+AVPlayerItem.swift"; sourceTree = "<group>"; };
+		E399B2E127BB615500EA0054 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		E399B2E227BB615500EA0054 /* TrackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackManager.swift; sourceTree = "<group>"; };
+		E399B2E427BB615500EA0054 /* DefaultStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
+		E399B2E627BB615700EA0054 /* memories (listen on spotify from 3am ep).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "memories (listen on spotify from 3am ep).mp3"; sourceTree = "<group>"; };
+		E399B2E727BB615700EA0054 /* im trying to find myself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "im trying to find myself.mp3"; sourceTree = "<group>"; };
+		E399B2E827BB615700EA0054 /* when the leaves start falling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "when the leaves start falling.mp3"; sourceTree = "<group>"; };
+		E399B2E927BB615700EA0054 /* distant moon (spotify apple etc).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "distant moon (spotify apple etc).mp3"; sourceTree = "<group>"; };
+		E399B2EA27BB615700EA0054 /* aruarian dance [lounge version].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aruarian dance [lounge version].mp3"; sourceTree = "<group>"; };
+		E399B2EB27BB615700EA0054 /* Bike Rides On The Block.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bike Rides On The Block.mp3"; sourceTree = "<group>"; };
+		E399B2EC27BB615700EA0054 /* Letting Go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Letting Go.mp3"; sourceTree = "<group>"; };
+		E399B2ED27BB615700EA0054 /* valentin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = valentin.mp3; sourceTree = "<group>"; };
+		E399B2EE27BB615700EA0054 /* elijah who - hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "elijah who - hello.mp3"; sourceTree = "<group>"; };
+		E399B2EF27BB615700EA0054 /* Moonlight!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Moonlight!.mp3"; sourceTree = "<group>"; };
+		E399B2F027BB615700EA0054 /* Getsomerest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Getsomerest.mp3; sourceTree = "<group>"; };
+		E399B2F127BB615700EA0054 /* night calls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "night calls.mp3"; sourceTree = "<group>"; };
+		E399B2F227BB615700EA0054 /* Ocean ride __ 海の乗り.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ocean ride __ 海の乗り.mp3"; sourceTree = "<group>"; };
+		E399B2F327BB615700EA0054 /* Missing U In The Raining Day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Missing U In The Raining Day.mp3"; sourceTree = "<group>"; };
+		E399B2F427BB615700EA0054 /* Glow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Glow.mp3; sourceTree = "<group>"; };
+		E399B2F527BB615700EA0054 /* Chamomile Tea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chamomile Tea.mp3"; sourceTree = "<group>"; };
+		E399B2F627BB615700EA0054 /* [ asleep ].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[ asleep ].mp3"; sourceTree = "<group>"; };
+		E399B2F727BB615700EA0054 /* Sampled in your own sweet way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sampled in your own sweet way.mp3"; sourceTree = "<group>"; };
+		E399B2F827BB615700EA0054 /* always you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "always you.mp3"; sourceTree = "<group>"; };
+		E399B2F927BB615700EA0054 /* i fell in love with you one night in september..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i fell in love with you one night in september..mp3"; sourceTree = "<group>"; };
+		E399B2FA27BB615700EA0054 /* tranquility.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tranquility.mp3; sourceTree = "<group>"; };
+		E399B2FB27BB615700EA0054 /* Sleepless.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sleepless.mp3; sourceTree = "<group>"; };
+		E399B2FD27BB615700EA0054 /* TrackCollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCollectionHeaderView.swift; sourceTree = "<group>"; };
+		E399B2FE27BB615700EA0054 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E399B30027BB615700EA0054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E399B30127BB615700EA0054 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
+		E399B30427BB615700EA0054 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		E399B30527BB615700EA0054 /* SimplePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePlayer.swift; sourceTree = "<group>"; };
+		E399B32927BB698000EA0054 /* Player.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E399B2C527BB608C00EA0054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E399B2BF27BB608B00EA0054 = {
+			isa = PBXGroup;
+			children = (
+				E399B2CA27BB608C00EA0054 /* AppleMusicMockApp */,
+				E399B2C927BB608C00EA0054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E399B2C927BB608C00EA0054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E399B2C827BB608C00EA0054 /* AppleMusicMockApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E399B2CA27BB608C00EA0054 /* AppleMusicMockApp */ = {
+			isa = PBXGroup;
+			children = (
+				E399B2CB27BB608C00EA0054 /* AppDelegate.swift */,
+				E399B2CD27BB608C00EA0054 /* SceneDelegate.swift */,
+				E399B2FC27BB615700EA0054 /* Home */,
+				E399B30227BB615700EA0054 /* Player */,
+				E399B2DF27BB615500EA0054 /* Track */,
+				E399B2E527BB615700EA0054 /* Resources */,
+				E399B2E327BB615500EA0054 /* Style */,
+				E399B2D427BB608D00EA0054 /* Assets.xcassets */,
+				E399B2D627BB608D00EA0054 /* LaunchScreen.storyboard */,
+				E399B2D927BB608D00EA0054 /* Info.plist */,
+			);
+			path = AppleMusicMockApp;
+			sourceTree = "<group>";
+		};
+		E399B2DF27BB615500EA0054 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				E399B2E027BB615500EA0054 /* Extension+AVPlayerItem.swift */,
+				E399B2E127BB615500EA0054 /* Track.swift */,
+				E399B2E227BB615500EA0054 /* TrackManager.swift */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		E399B2E327BB615500EA0054 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				E399B2E427BB615500EA0054 /* DefaultStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		E399B2E527BB615700EA0054 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E399B2E627BB615700EA0054 /* memories (listen on spotify from 3am ep).mp3 */,
+				E399B2E727BB615700EA0054 /* im trying to find myself.mp3 */,
+				E399B2E827BB615700EA0054 /* when the leaves start falling.mp3 */,
+				E399B2E927BB615700EA0054 /* distant moon (spotify apple etc).mp3 */,
+				E399B2EA27BB615700EA0054 /* aruarian dance [lounge version].mp3 */,
+				E399B2EB27BB615700EA0054 /* Bike Rides On The Block.mp3 */,
+				E399B2EC27BB615700EA0054 /* Letting Go.mp3 */,
+				E399B2ED27BB615700EA0054 /* valentin.mp3 */,
+				E399B2EE27BB615700EA0054 /* elijah who - hello.mp3 */,
+				E399B2EF27BB615700EA0054 /* Moonlight!.mp3 */,
+				E399B2F027BB615700EA0054 /* Getsomerest.mp3 */,
+				E399B2F127BB615700EA0054 /* night calls.mp3 */,
+				E399B2F227BB615700EA0054 /* Ocean ride __ 海の乗り.mp3 */,
+				E399B2F327BB615700EA0054 /* Missing U In The Raining Day.mp3 */,
+				E399B2F427BB615700EA0054 /* Glow.mp3 */,
+				E399B2F527BB615700EA0054 /* Chamomile Tea.mp3 */,
+				E399B2F627BB615700EA0054 /* [ asleep ].mp3 */,
+				E399B2F727BB615700EA0054 /* Sampled in your own sweet way.mp3 */,
+				E399B2F827BB615700EA0054 /* always you.mp3 */,
+				E399B2F927BB615700EA0054 /* i fell in love with you one night in september..mp3 */,
+				E399B2FA27BB615700EA0054 /* tranquility.mp3 */,
+				E399B2FB27BB615700EA0054 /* Sleepless.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E399B2FC27BB615700EA0054 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E399B2FD27BB615700EA0054 /* TrackCollectionHeaderView.swift */,
+				E399B2FE27BB615700EA0054 /* HomeViewController.swift */,
+				E399B2FF27BB615700EA0054 /* Main.storyboard */,
+				E399B30127BB615700EA0054 /* TrackCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E399B30227BB615700EA0054 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				E399B32927BB698000EA0054 /* Player.storyboard */,
+				E399B30427BB615700EA0054 /* PlayerViewController.swift */,
+				E399B30527BB615700EA0054 /* SimplePlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E399B2C727BB608C00EA0054 /* AppleMusicMockApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E399B2DC27BB608D00EA0054 /* Build configuration list for PBXNativeTarget "AppleMusicMockApp" */;
+			buildPhases = (
+				E399B2C427BB608C00EA0054 /* Sources */,
+				E399B2C527BB608C00EA0054 /* Frameworks */,
+				E399B2C627BB608C00EA0054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleMusicMockApp;
+			productName = AppleMusicMockApp;
+			productReference = E399B2C827BB608C00EA0054 /* AppleMusicMockApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E399B2C027BB608B00EA0054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E399B2C727BB608C00EA0054 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E399B2C327BB608B00EA0054 /* Build configuration list for PBXProject "AppleMusicMockApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E399B2BF27BB608B00EA0054;
+			productRefGroup = E399B2C927BB608C00EA0054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E399B2C727BB608C00EA0054 /* AppleMusicMockApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E399B2C627BB608C00EA0054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E399B2D827BB608D00EA0054 /* LaunchScreen.storyboard in Resources */,
+				E399B32227BB615700EA0054 /* Main.storyboard in Resources */,
+				E399B31D27BB615700EA0054 /* i fell in love with you one night in september..mp3 in Resources */,
+				E399B31C27BB615700EA0054 /* always you.mp3 in Resources */,
+				E399B31227BB615700EA0054 /* elijah who - hello.mp3 in Resources */,
+				E399B31927BB615700EA0054 /* Chamomile Tea.mp3 in Resources */,
+				E399B31827BB615700EA0054 /* Glow.mp3 in Resources */,
+				E399B31B27BB615700EA0054 /* Sampled in your own sweet way.mp3 in Resources */,
+				E399B31127BB615700EA0054 /* valentin.mp3 in Resources */,
+				E399B31A27BB615700EA0054 /* [ asleep ].mp3 in Resources */,
+				E399B30B27BB615700EA0054 /* im trying to find myself.mp3 in Resources */,
+				E399B31427BB615700EA0054 /* Getsomerest.mp3 in Resources */,
+				E399B30C27BB615700EA0054 /* when the leaves start falling.mp3 in Resources */,
+				E399B31727BB615700EA0054 /* Missing U In The Raining Day.mp3 in Resources */,
+				E399B30D27BB615700EA0054 /* distant moon (spotify apple etc).mp3 in Resources */,
+				E399B31327BB615700EA0054 /* Moonlight!.mp3 in Resources */,
+				E399B31627BB615700EA0054 /* Ocean ride __ 海の乗り.mp3 in Resources */,
+				E399B30F27BB615700EA0054 /* Bike Rides On The Block.mp3 in Resources */,
+				E399B31027BB615700EA0054 /* Letting Go.mp3 in Resources */,
+				E399B32A27BB698000EA0054 /* Player.storyboard in Resources */,
+				E399B2D527BB608D00EA0054 /* Assets.xcassets in Resources */,
+				E399B31F27BB615700EA0054 /* Sleepless.mp3 in Resources */,
+				E399B30E27BB615700EA0054 /* aruarian dance [lounge version].mp3 in Resources */,
+				E399B31E27BB615700EA0054 /* tranquility.mp3 in Resources */,
+				E399B31527BB615700EA0054 /* night calls.mp3 in Resources */,
+				E399B30A27BB615700EA0054 /* memories (listen on spotify from 3am ep).mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E399B2C427BB608C00EA0054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E399B32627BB615700EA0054 /* SimplePlayer.swift in Sources */,
+				E399B2CC27BB608C00EA0054 /* AppDelegate.swift in Sources */,
+				E399B32327BB615700EA0054 /* TrackCollectionViewCell.swift in Sources */,
+				E399B30927BB615700EA0054 /* DefaultStyle.swift in Sources */,
+				E399B32027BB615700EA0054 /* TrackCollectionHeaderView.swift in Sources */,
+				E399B32127BB615700EA0054 /* HomeViewController.swift in Sources */,
+				E399B30627BB615700EA0054 /* Extension+AVPlayerItem.swift in Sources */,
+				E399B30827BB615700EA0054 /* TrackManager.swift in Sources */,
+				E399B2CE27BB608C00EA0054 /* SceneDelegate.swift in Sources */,
+				E399B30727BB615700EA0054 /* Track.swift in Sources */,
+				E399B32527BB615700EA0054 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E399B2D627BB608D00EA0054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E399B2D727BB608D00EA0054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E399B2FF27BB615700EA0054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E399B30027BB615700EA0054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E399B2DA27BB608D00EA0054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E399B2DB27BB608D00EA0054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E399B2DD27BB608D00EA0054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD4UBSQHA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleMusicMockApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linerlin.AppleMusicMockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E399B2DE27BB608D00EA0054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD4UBSQHA8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleMusicMockApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = linerlin.AppleMusicMockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E399B2C327BB608B00EA0054 /* Build configuration list for PBXProject "AppleMusicMockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E399B2DA27BB608D00EA0054 /* Debug */,
+				E399B2DB27BB608D00EA0054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E399B2DC27BB608D00EA0054 /* Build configuration list for PBXNativeTarget "AppleMusicMockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E399B2DD27BB608D00EA0054 /* Debug */,
+				E399B2DE27BB608D00EA0054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E399B2C027BB608B00EA0054 /* Project object */;
+}
