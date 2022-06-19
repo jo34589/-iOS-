@@ -49,7 +49,6 @@ class BeerListCell: UITableViewCell {
         }
     }
     
-    
     func configure(with beer: Beer) {
         let imageURL = URL(string: beer.imageURL ?? "")
         //placeholder: url이 이미지를 가져오지 못 할 경우 설정할 기본 이미지.
